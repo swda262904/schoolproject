@@ -1,0 +1,18 @@
+a {
+    target: "_parent";
+    color: darkred;
+}
+
+
+li{
+    font-style: normal;  
+    
+}
+td{
+    vertical-align: top;
+}
+p{
+    font-family: fantasy;
+    font-size: 24px;
+    
+}

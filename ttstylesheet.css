@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    padding:0;
+    float: inherit;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 正楷體;
+    color: darkgoldenrod;
+}
+#container{
+    border:0px #666 dashed;
+    width: 1700px;
+    margin:0 auto;
+}
+#headbox{
+    height:180px;
+    border:0px #666 dashed;
+    margin:5 auto;
+    
+}
+#sidebar_left{
+    width:200px;
+    height:1024px;
+    border:0px #666 dashed;
+    margin-top:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom:5px;
+    float:left;
+    
+    
+}
+#sidebar_right{
+    width:200px;
+    height:1024px;
+    border:0px #666 dashed;
+    margin-left: 1%;
+    margin-top:5px;
+    margin-bottom:5px;
+    float:left;
+}
+#sidebody{
+    height: 1024px;
+    width: 74%;
+    margin: 0 auto;
+    border:2px;
+    margin-left:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+    float: left;
+}
+#clear{
+    clear:both;
+}
+#footer{
+    margin:0 auto;
+    height:20px;
+    border:0px #666 dashed;
+    margin-top:5px;
+    margin-left:5px;
+    margin-bottom:5px;
+}
+span {
+    font-family: fantasy;
+}
+p {
+    font-family: 標楷體;
+    font-family:fantasy;
+    font-size: 36px;
+    color:white;
+}
+
+ul {
+    font-family: 標楷體;
+    font-size: 20px;
+    color:darkblue;
+}
+a {  color: blue;
+    text-decoration: none;
+    height: 20px; width: 120px;
+    font-size: 30px; 
+    background-image: url(bg1.gif); 
+    padding-top: 5px; padding-left: 5px
+}
+ a:hover {  color: yellow; 
+            text-decoration: none; 
+            background-image: url(bg2.gif); 
+            height: 20px; 
+            width: 120px;
+            padding-top: 5px;
+            padding-left: 5px;
+}
+
+a {
+    target: "_parent";
+    color:blue;
+    font-size: 30px;
+    
+    font-family: 正楷體;
+}
+li{
+    font-style: normal;  
+    
+}
+td{
+    vertical-align: top;
+}
+#miSider{
+    margin-right: 3px;
+    float: left;
+}

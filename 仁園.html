@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="roadstylesheet.css">
+     <!--googlemap地圖區---------------------------------------------------------------------------->
+       <style type="text/css">
+      html, body { height: 100%; margin: 0; padding: 0; }
+      #map { height: 100%; }
+    </style>
+    <!--googlemap地圖區---------------------------------------------------------------------------->
+    <title>仁園介紹</title>
+</head>
+<body>
+<a href="%E4%B8%AD%E9%96%93%E9%A6%96%E9%A0%81.html" >回到首頁</a>
+    <!--googlemap地圖區---------------------------------------------------------------------------->
+            <div align="center"><div id="map" style="width:480px; height:360px;"></div></div>
+    <script type="text/javascript">
+var map;
+function initMap() {
+ var myLatlng = new google.maps.LatLng(25.036259, 121.429663);
+var mapOptions = {
+  zoom: 17,
+  center: myLatlng
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+var marker = new google.maps.Marker({
+    position: myLatlng,
+    title:"O!M!G"
+});
+    marker.setMap(map);
+}
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCI6F6oZAkx5O80YypwDmYppqPG_-acXkI&callback=initMap">
+    </script>
+ <!--googlemap地圖區----------------------------------------------------------------------------> 
+    <p><h2>仁園美食</h2></p>
+    
+    <img src="%E6%A0%A1%E5%85%A7/%E4%BB%81%E5%9C%92/1.jpg" >
+    
+    
+</body>
+</html>

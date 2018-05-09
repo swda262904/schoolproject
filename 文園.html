@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="roadstylesheet.css">
+     <!--googlemap地圖區---------------------------------------------------------------------------->
+       <style type="text/css">
+      html, body { height: 100%; margin: 0; padding: 0; }
+      #map { height: 100%; }
+    </style>
+    <!--googlemap地圖區---------------------------------------------------------------------------->
+    <title>文園介紹</title>
+</head>
+<body>
+
+    <a href="%E4%B8%AD%E9%96%93%E9%A6%96%E9%A0%81.html" >回到首頁</a>
+    <!--googlemap地圖區---------------------------------------------------------------------------->
+            <div align="center"><div id="map" style="width:480px; height:360px;"></div></div>
+    <script type="text/javascript">
+var map;
+function initMap() {
+ var myLatlng = new google.maps.LatLng(25.037133, 121.433136);
+var mapOptions = {
+  zoom: 17,
+  center: myLatlng
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+var marker = new google.maps.Marker({
+    position: myLatlng,
+    title:"O!M!G"
+});
+    marker.setMap(map);
+}
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCI6F6oZAkx5O80YypwDmYppqPG_-acXkI&callback=initMap">
+    </script>
+ <!--googlemap地圖區----------------------------------------------------------------------------> 
+    <ul id="miSider">
+        <p><h2><b>文園美食</b></h2></p>
+        <ul><a href = "%E6%A0%A1%E5%85%A7/%E6%96%87%E5%9C%92/%E6%96%87%E5%9C%92/%E5%92%96%E5%95%A1%E7%9F%A5%E9%81%93.html" target="middd" style="text-decoration: none;"> 咖啡知道</a></ul><br>
+        <ul><a href = "%E6%A0%A1%E5%85%A7/%E6%96%87%E5%9C%92/%E6%96%87%E5%9C%92/%E5%A8%83%E5%AD%90%E8%A4%87%E5%90%88%E5%BC%8F%E9%A4%90%E9%A3%B2.html" target="middd" style="text-decoration: none;"> 娃子複合式餐飲 </a></ul><br>
+        <ul><a href = "%E6%A0%A1%E5%85%A7/%E6%96%87%E5%9C%92/%E6%96%87%E5%9C%92/%E4%B8%80%E5%93%81%E9%A6%99%E8%87%AA%E5%8A%A9%E9%A4%90.html" target="middd" style="text-decoration: none;"> 一品香自助餐</a></ul><br>
+        <ul><a href = "%E6%A0%A1%E5%85%A7/%E6%96%87%E5%9C%92/%E6%96%87%E5%9C%92/%E8%B6%99%E7%8F%AD%E9%95%B7%E6%B5%B7%E8%8B%94%E9%A3%AF%E6%8D%B2.html" target="middd" style="text-decoration: none;"> 趙班長海苔飯捲</a></ul><br>
+        <ul><a href = "%E6%A0%A1%E5%85%A7/%E6%96%87%E5%9C%92/%E6%96%87%E5%9C%92/%E6%AD%90%E7%88%B8%E9%9F%93%E5%BC%8F%E9%A3%9F%E5%A0%82.html" target="middd" style="text-decoration: none;"> 歐爸韓式食堂</a></ul><br>
+        
+    
+    
+    
+    
+</body>
+</html>
