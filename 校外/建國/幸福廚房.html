@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>幸福廚房</title>
+        <meta content="text/html; charset=UTF8" http-equiv="content-type">
+        <link type="text/css" rel="stylesheet" href="schooloutstylesheet.css">
+        <!--googlemap地圖區---------------------------------------------------------------------------->
+       <style type="text/css">
+      html, body { height: 100%; margin: 0; padding: 0; }
+      #map { height: 100%; }
+    </style>
+    <!--googlemap地圖區---------------------------------------------------------------------------->
+    </head>
+
+    <body>
+    <input type ="button" onclick="history.back()" value="回到上一頁"></input>
+    
+    <div>
+    <p>幸福廚房<br><br>
+        242新北市新莊區建國一路62號<br>
+          <!--googlemap地圖區---------------------------------------------------------------------------->
+            <div align="center"><div id="map" style="width:480px; height:360px;"></div></div>
+    <script type="text/javascript">
+var map;
+function initMap() {
+ var myLatlng = new google.maps.LatLng(25.030681, 121.434170);
+var mapOptions = {
+  zoom: 17,
+  center: myLatlng
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+var marker = new google.maps.Marker({
+    position: myLatlng,
+    title:"O!M!G"
+});
+    marker.setMap(map);
+}
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCI6F6oZAkx5O80YypwDmYppqPG_-acXkI&callback=initMap">
+    </script>
+ <!--googlemap地圖區----------------------------------------------------------------------------> 
+        <br>
+        <img src="%E5%9C%96%E7%89%87129.jpg" width="200" height="200">
+        </p>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
